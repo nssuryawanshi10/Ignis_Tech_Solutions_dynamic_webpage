@@ -1,0 +1,23 @@
+CREATE A DATABASE :-
+
+mysql> CREATE DATABASE event;
+
+shell> mysql -h host -u user -p event
+Enter password: ********
+
+CREATING A TABLE :-
+
+mysql> CREATE TABLE event_table (event_name VARCHAR(50), data VARCHAR(200),
+       time TIME(0), location VARCHAR(60), image VARBINARY(max), is_liked BIT(0));
+       
+       
+SHOWING THE TABLE :-
+
+mysql> SHOW TABLES;
+mysql> DESCRIBE event_table;
+
+
+
+
+
+
